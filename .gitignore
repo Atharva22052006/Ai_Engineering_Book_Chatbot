@@ -1,0 +1,77 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==========================
+# Virtual Environments
+# ==========================
+venv/
+.venv/
+env/
+ENV/
+
+# ==========================
+# Environment Variables
+# ==========================
+.env
+.env.*
+
+# ==========================
+# Jupyter
+# ==========================
+.ipynb_checkpoints/
+
+# ==========================
+# VS Code
+# ==========================
+.vscode/
+
+# ==========================
+# OS Files
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Vector Databases
+# ==========================
+data/vectorstore/
+chroma_db/
+chroma/
+
+# ==========================
+# Model Cache
+# ==========================
+cache/
+models/
+
+# Hugging Face cache (if inside project)
+.huggingface/
+
+# ==========================
+# Processed Data
+# ==========================
+data/processed/embeddings/
+
+# Uncomment if you DON'T want to upload generated data
+# data/processed/
+# results/
+
+# ==========================
+# Logs
+# ==========================
+*.log
+
+# ==========================
+# API Keys
+# ==========================
+secrets.json
+config_private.py
+
+# ==========================
+# Large Raw Documents
+# ==========================
+data/raw/
